@@ -25,6 +25,9 @@ The data set spanned up until 2016 but the suicide rate was relativeley low for 
 
 It could've also simply be because the data set is not complete (but that's less exciting). 
 
+<img src="images/percent_suiPNG.PNG" />
+
+
 ## Hypothesis Testing
 
 ## Conclusion

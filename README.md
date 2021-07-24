@@ -71,7 +71,7 @@ First, given that the G.I. Generation was an outlier, I am going to consider the
 
 With the information that I had, I decided to conduct a hypothesis test. In the entire 10 year span for the countries provided in the data set, there were 2,300,872 suicide deaths. This averaged to about 230,087 deaths per year. 636,436 of the total count were Boomers alone (making our mu about .28). For simplification purposes I divided all my values by 1000.
 
-I want to find the probaility that a suicide death in this time span was commited by a Boomer, where my null hypothesis is that a randomlu elected suicide death in the deacade will not be a Boomer more than 28% of the time. 
+I want to find the probaility that a suicide death in this time span was commited by a Boomer, where my null hypothesis is that a randomly selected suicide death in the deacade will not be a Boomer more than 28% of the time. 
          Boomer Suicide≈𝐵𝑖𝑛𝑜𝑚𝑖𝑎𝑙(636,0.28)
 
 My alpha is 0.05. (success = the individual is a Boomer, failure = individual is not a Boomer)
@@ -86,7 +86,7 @@ p_value = 1 - normal_approx.cdf(636) --> p-value for 10 year suicide experiment:
 
 ## Conclusion
 
-I failed to reject me null hypothesis. 
+I failed to reject my null hypothesis that a randomly selected suicide death in the deacade will not be a Boomer more than 28% of the time. 
 
 ## Future Steps
 
@@ -100,7 +100,7 @@ A comparison between global suicide rates and global death rates would be intere
 
 I'd like to explore Bayesian AB testing for my statistical analysis next time, rather than that using frequentist techniques.
 
-###Thank you!!!
+#### Thank you!!!
 
 ## Contact Information
 
